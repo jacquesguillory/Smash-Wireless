@@ -1,0 +1,38 @@
+<br>
+<div class="col s2"></div>
+<div class="col s8">
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <h4 style="text-align: center">New Line for {{user.dataValues.company}}</h4>
+                <div class="input-field col s6">
+                    <input id="username" type="text" class="validate">
+                    <label for="username">Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="device" type="text" class="validate">
+                    <label for="device">Device</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">                    
+                    <select id="rate-plan">
+                        <option value="" disabled selected>Rate Plans</option>
+                        <option value="1">Mobile Select 1Gb</option>
+                        <option value="3">Mobile Select 3Gb</option>
+                        <option value="5">Mobile Select 5Gb</option>
+                        <option value="7">Mobile Select 7Gb</option>
+                        <option value="10">Mobile Select 10Gb</option>
+                    </select>                   
+                </div>
+            </div>
+            <input id="company" type="hidden" value="{{user.dataValues.company}}">      
+            <input id="user-id" type="hidden" value="{{user.dataValues.id}}">  
+            <div class="row" style="text-align: center">
+                <button class="btn waves-effect waves-light" type="submit" name="action" id="add-phone" style="text-align: center">Submit
+                 <i class="material-icons right">send</i>
+                </button> 
+            </div>              
+        </form>
+    </div>
+</div>
