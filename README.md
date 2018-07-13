@@ -6,7 +6,7 @@ This is a full stack app that is designed to streamline the management of corpor
 [Link to deployed app here](https://stark-plateau-61369.herokuapp.com/)
 
 ### Team Members:
-- Jacques Guillory: Database, ORM, front-end design
+- Jacques Guillory: Database, object-relational mapping, front-end design
 - Brandon Good: Database, front-end design
 - Elena Finley: Database, front-end design, deployment
 
